@@ -2,10 +2,11 @@
 Projeto utilizando Python+Django (Estudos para criação de uma aplicação de Controle de Gastos)
 
 python manage.py startapp contas (Criar app)
-Registrar em settings
+
+//Registrar em settings
 a pasta do projeto
 INSTALLED_APPS = [
-'contas',
+'contas',//
 
 python manage.py migrate (Criar um banco de dados)
 
