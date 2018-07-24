@@ -3,7 +3,9 @@ Projeto utilizando Python+Django (Estudos para criação de uma aplicação de C
 
 python manage.py startapp contas (Criar app)
 Registrar em settings
-pasta do projeto
+a pasta do projeto
+INSTALLED_APPS = [
+'contas',
 
 python manage.py migrate (Criar um banco de dados)
 
